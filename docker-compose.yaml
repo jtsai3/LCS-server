@@ -1,0 +1,10 @@
+version: '3'
+services:
+  web:
+    build: ./lcs_server
+    container_name: lcs-server
+    volumes:
+      - ./lcs_server:/app:z
+    ports:
+      - "8000:8000"
+    command: /start-web
