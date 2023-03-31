@@ -58,7 +58,7 @@ Example request:
     {
         "lcs": [
             {
-                "value": "cast"
+                "value": "com"
             }
         ]
     }

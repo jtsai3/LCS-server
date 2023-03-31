@@ -6,7 +6,6 @@ from lcs.serializers import SetOfStringSerializer
 
 class SetOfStringSerializerTest(TestCase):
     def setUp(self):
-        self.client = APIClient()
         self.serializer = SetOfStringSerializer()
         
     def test_empty_set_raise_validation_error(self):
